@@ -33,7 +33,7 @@ body {
   #container {
     margin-left: 0px;
     width: 98%;
-  } 
+  }
 }
 @media (min-width: 80px) and (max-width: 399px) {
   body {
@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   color: #363636;
-  max-width: 900px; 
+  max-width: 900px;
   padding-left: 1rem;
   padding-right: 3rem;
   padding-top: 1rem;
@@ -96,7 +96,7 @@ body {
 }
 
 #quote {
-  font-size: 1.0rem;
+  font-size: 1rem;
   margin-top: 0px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -151,10 +151,10 @@ button {
 .media-icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-content: center;
   margin-top: 2rem;
-  /* margin-left: 10%; */
+  margin-left: 25%;
   /* margin-right: 10%; */
 }
 .media-icon {
@@ -231,7 +231,7 @@ button {
 }
 
 .top-content {
-  /* display: flex; */
+  display: flex;
   /* flex-direction: row; */
   background-color: white;
   font-size: 12pt;
